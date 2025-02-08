@@ -1,0 +1,1 @@
+This repository contains a Dockerfile that produces a non-zero exit status 1 during the build process. The issue is caused by an improper order of commands within the Dockerfile. The provided solution demonstrates a corrected Dockerfile that addresses the problem by ensuring that the apt-get update command is executed successfully before attempting to install any packages.
